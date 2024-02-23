@@ -1,8 +1,5 @@
-import subprocess
-
 # 打开文件
 file_path = "/etc/apt/sources.list"
-subprocess.run(["vim", file_path])
 
 # 读取文件内容
 with open(file_path, "r") as file:
